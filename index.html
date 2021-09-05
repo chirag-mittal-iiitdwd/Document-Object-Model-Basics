@@ -22,3 +22,27 @@
     <script src="index.js" charset="utf=8"></script>
 </footer>
 </html>
+
+<!-- document.getElementsByTagName(“li”); - Returns array of li elements in the page -->
+<!-- document.getElementsByTagName(“li”)[0].style.color=”purple”;  --- This will change the color to purple of the first element in the array -->
+<!-- All array functions work for this -->
+<!-- document.getElementsByClassName(“btn”);  --- Also returns array -->
+<!-- document.getElementById(“title”) -->
+<!-- document.getElementById(“title”).innerHTML=”GoodBye”;  ---- Changing the title from hello to goodbye -->
+<!-- document.querySelector(“selector”);  ---- This works with only selectors, what are selectors? selectors are the items which we use to change the css property like simpleTagName, .class for any class and #id for any id -->
+<!-- With querySelectors we can also do hierarchical selection,  -->
+<!-- document.querySelector(“li a”)   --- This means the anchor tag inside list item -->
+<!-- If there are more than one items which have the same property then the first one is returned. -->
+<!-- If we want to select all items with same property than use querySelectorAll  -->
+<!-- querySelector and querySelectorAll are used more often -->
+<!-- document.querySelector(“button”).classList;   --- Returns the list of items attached with button -->
+<!-- document.querySelector(“button”).classList.add(“anotherClass); --- This another will now be added to the index.html -->
+<!-- What we can do with this another class is that we can define some css rules for anotherClass in styles.css and they will be called whenever this line will be executed, this way we can apply CSS from styles.css and toggle it from index.js -->
+<!-- document.querySelector(“button”).classList.add(“anotherClass); --- Removes another class from the page -->
+<!-- document.querySelector(“button”).classList.toggle(“anotherClass); This means if the class is applied then remove it and if it is removed then add it -->
+<!-- document.querySelector(“h1”).innerHTML --- returns whatever is there inside h1 tag, whether it is another tag or some text -->
+<!-- document.querySelector(“h1”).textContent ----Returns only the text -->
+<!-- document.queryselector(“h1”).innerHTML=”<em>GoodBye</em>”   --- This will change the text and make it italicised  -->
+<!-- attribute? it is anything which has same color as that of href in the html page -->
+<!-- document.querySelector(“a”),getAttribute(“href”);  ---- returns the address inside a tag -->
+<!-- document.querySelector(“a”).setAttribute(“href”,”https://www.bing.com”); for setting to some other value -->
